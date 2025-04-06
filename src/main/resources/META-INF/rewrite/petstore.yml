@@ -1,0 +1,7 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: org.dev.rewrite.petstore.AddOasProperty
+recipeList:
+  - org.dev.rewrite.petstore.oas.AddProperty:
+      key: abc
+      value: 123
